@@ -10,11 +10,14 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
+
 }
 
 body {
-  font-family: 'Annie Use Your Telescope', cursive;
-  background-color: cornflowerblue;
+  font-family: 'Open Sans', sans-serif;
+  /* cornflowerblue, the second best color :) */
+  background:  cornflowerblue;
+  box-shadow: inset 2rem 2rem 8rem rgba(0, 0, 0, 0.15), inset -2rem -2rem 8rem rgba(0, 0, 0, 0.15);
 }
 
 .wrapper {
@@ -27,7 +30,8 @@ header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  color: hsl(0, 0%, 0%);
+  text-shadow: rgba(0, 0, 0, 0.15);
 }
 
 .card {
@@ -74,6 +78,7 @@ header {
 
 .btn {
   border: none;
+  /* IKB, the best color */
   background-color: #002fa7;
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
